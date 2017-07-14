@@ -1,4 +1,4 @@
-""" Setup script for mlp package. """
+""" Setup script for SARI package. """
 
 from setuptools import setup
 
