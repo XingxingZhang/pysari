@@ -104,7 +104,7 @@ def SARIngram(sgrams, cgrams, rgramslist, numref):
     addscore_recall = 0
     if len(addgramcounter) > 0:
     	addscore_precision = addtmpscore / len(addgramcounter)
-    if len(addgramcounter) > 0:
+    if len(addgramcounterall) > 0:
     	addscore_recall = addtmpscore / len(addgramcounterall)
     addscore = 0
     if addscore_precision > 0 or addscore_recall > 0:
@@ -198,8 +198,10 @@ csent2 = "About 95 species are now agreed ."
 csent3 = "About 95 species are currently agreed ."
 rsents = ["About 95 species are currently known .", "About 95 species are now accepted .", "95 species are now accepted ."]
 
+'''
 print SARIsent(ssent, csent1, rsents)
 print SARIsent(ssent, csent2, rsents)
 print SARIsent(ssent, csent3, rsents)
+'''
 
 
