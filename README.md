@@ -1,3 +1,26 @@
+The original author of SARI.py is [Wei Xu](https://cocoxu.github.io/) <br>
+I extend it to a python package.
+
+### Installation
+```
+python setup.py develop
+```
+## Example Code
+```
+from sari.SARI import SARIsent
+
+ssent = "About 95 species are currently accepted ."
+csent1 = "About 95 you now get in ."
+csent2 = "About 95 species are now agreed ."
+csent3 = "About 95 species are currently agreed ."
+rsents = ["About 95 species are currently known .", "About 95 species are now accepted .", "95 species are now accepted ."]
+
+print SARIsent(ssent, csent1, rsents)
+print SARIsent(ssent, csent2, rsents)
+print SARIsent(ssent, csent3, rsents)
+```
+
+
 Contact: [Wei Xu](web.cse.ohio-state.edu/~weixu/) (Ohio State University)
 
 
