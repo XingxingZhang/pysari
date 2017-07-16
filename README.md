@@ -1,7 +1,9 @@
+# A Python Implementation of SARI
+
 The original author of SARI.py is [Wei Xu](https://cocoxu.github.io/) <br>
 I extend it to a python package.
 
-### Installation
+## Installation
 ```
 python setup.py develop
 ```
