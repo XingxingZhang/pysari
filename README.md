@@ -1,7 +1,8 @@
 # A Python Implementation of SARI
 
 The original author of SARI.py is [Wei Xu](https://cocoxu.github.io/) <br>
-I extend it to a python package. If you use this project in your research, please cite Wei's awesome paper (see below).
+I extend it to a python package. If you use this project in your research, please cite Wei's awesome paper (see below). <br>
+The dataset acompanied by the orignal repo was deleted to make the package lightweighted, but you can still find the dataset here https://github.com/cocoxu/simplification
 
 ## Installation
 ```
